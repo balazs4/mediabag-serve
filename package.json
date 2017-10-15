@@ -1,0 +1,14 @@
+{
+  "name": "mediabag-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve --cors --port ${PORT} --unzipped ${FOLDER}"
+  },
+  "author": "balazs4 <balazs4web@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^6.2.0"
+  }
+}
