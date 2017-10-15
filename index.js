@@ -8,9 +8,8 @@ createServer((req, res) => {
     res.end();
     return;
   }
-  console.log(req.method, req.url, req.headers);
   const { url } = req;
-  const file = join(__dirname, url);
+  const file = join(process.env.FOLDER, url);
   const stream = createReadStream(file);
   const contentType = check(stream);
   res.writeHead(200, { 'Content-Type': contentType });
