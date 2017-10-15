@@ -9,6 +9,7 @@
   "author": "balazs4 <balazs4web@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "content-check": "^1.0.2"
+    "content-check": "^1.0.2",
+    "recursive-readdir": "^2.2.1"
   }
 }
